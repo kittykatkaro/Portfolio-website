@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
 		rel="stylesheet">
 	<link ref="stylesheet" type="text/css" href="css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/about.css">
 	<title>Karo Ogorek - Portfolio</title>
 </head>
@@ -36,34 +36,40 @@
 		</nav>
 	</header>
 	<main>
-		<div class="profile">
-			<img src="img/profile_pic.jpg" class="profile__portrait"
-				alt="A selfie in an elevator, which is currently being used as a profile picture">
-			<h1>About me</h1>
-			<p>
-				My Name is Karo Ogorek. I am currently a full-stack web
-				developer in training at Career Foundry. <br>
-				Originally from Poland, I am now based in Germany. I speak
-				Polish, German and English fluently. Additionally, I speak
-				Japanese at a beginner level (JLPT N4).
-			</p>
-			<p>
-				Before starting my training as a web developer, I worked for
-				four years in a German bank. This includes the 2 1/2 year
-				training period. I learned the basics of the banking industry,
-				financial accounting, and business administration. <br>
-				Deciding that this was not my passion, I enrolled at the Free
-				University in Berlin, studying East-Asian Art History with a
-				focus on Japan. Mandatory for the degree was an internship in a
-				company related to the field of study. I completed my internship
-				at the Samurai Museum Berlin with a job offer at the end. I
-				worked for three years in the museum where I was responsible for
-				writing descriptions for the objects and exhibition, database
-				management, and digital exhibition maintenance. Additionally, I
-				was responsible for the object pictures (cataloging, editing,
-				and uploading to the database).
-			</p>
-			
+		<div class="about_me">
+			<div class="profile_img">
+				<img src="img/profile_pic.jpg" class="profile__portrait"
+					alt="A selfie in an elevator, which is currently being used as a profile picture">
+			</div>
+			<div class="about_info">
+				<h1>About me</h1>
+				<p>
+					My Name is Karo Ogorek. I am currently a full-stack web
+					developer in training at Career Foundry. <br>
+					Originally from Poland, I am now based in Germany. I speak
+					Polish, German and English fluently. Additionally, I speak
+					Japanese at a beginner level (JLPT N4).
+				</p>
+				<p><a href="files/CV.pdf" class="button" download>Download my CV</a></p>
+			</div>
+			<div class="about_bio">
+				<p>
+					Before starting my training as a web developer, I worked for
+					four years in a German bank. This includes the 2 1/2 year
+					training period. I learned the basics of the banking industry,
+					financial accounting, and business administration. <br>
+					Deciding that this was not my passion, I enrolled at the Free
+					University in Berlin, studying East-Asian Art History with a
+					focus on Japan. Mandatory for the degree was an internship in a
+					company related to the field of study. I completed my internship
+					at the Samurai Museum Berlin with a job offer at the end. I
+					worked for three years in the museum where I was responsible for
+					writing descriptions for the objects and exhibition, database
+					management, and digital exhibition maintenance. Additionally, I
+					was responsible for the object pictures (cataloging, editing,
+					and uploading to the database).
+				</p>
+			</div>
 			<table>
 				<thead>
 					<tr>
@@ -100,16 +106,17 @@
 					</tr>
 				</tbody>
 			</table>
-			<p><a href="files/CV.pdf" class="button" download>Download my CV</a></p>
 		</div>
 
 	</main>
 	<footer class="page-footer">
 		<p>Find me on</p>
 		<div class="social-media">
-			<img src="img/github_logo.svg" alt="Github">
-			<img src="img/x_logo.svg" alt="X">
-			<img src="img/linkedin_logo.svg" alt="LinkedIn">
+			<a href="https://github.com/kittykatkaro" target="_blank"><img src="img/github_logo.svg" alt="Github"></a>
+			<a href="https://x.com/home" target="_blank"><img src="img/x_logo.svg" alt="X"></a>
+			<a href="www.linkedin.com/in/karolina-ogorek" target="_blank">
+				<img src="img/linkedin_logo.svg" alt="LinkedIn">
+			</a>
 		</div>
 	</footer>
 	<script src="js/tota11y.min.js"></script>
