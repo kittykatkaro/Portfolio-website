@@ -77,11 +77,8 @@ button, input[type="submit"]:hover,
   margin: 0 auto;
   text-align: justify;
 }
-.profile_img {
-  width: 300px;
-}
 .profile_info {
-  width: 500px;
+  margin: 10px;
 }
 .profile__portrait {
   float: left;
@@ -159,5 +156,13 @@ td {
   }
   h2 {
     font-size: 18px;
+  }
+  .profile_img
+  {
+    width: 300px;
+    height: auto;
+    max-width: 400px;
+    margin-right: 40px;
+    border-radius: 50%;
   }
 }
